@@ -6,11 +6,11 @@
         { "name": "Yi Shen", "email": "shenyi.914@gmail.com" }
     ],
     "dependencies": {
-        "zrender": "2.0.8",
+        "zrender": "https://github.com/uooo/zrender/archive/2.0.8-webpack.tar.gz"
         "echarts": "2.2.1",
         "qtek": "0.2.1"
     },
-    "repository": "git://github.com/ecomfe/echarts-x",
+    "repository": "git://github.com/uooo/echarts-x",
     "main": "echarts-x",
     "homepage": "http://echarts.baidu.com/x"
 }
