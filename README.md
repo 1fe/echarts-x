@@ -11,8 +11,6 @@ It is built on top of Canvas library [ZRender](https://github.com/uooo/zrender) 
 [![devDependency Status][dev-deps-badge]][dev-deps]
 [![peerDependency Status][peer-deps-badge]][peer-deps]
 
-Demo: http://uooo.github.io/echarts-x-examples
-
 [npm-badge]: https://img.shields.io/npm/v/echarts-x.svg?style=flat-square
 [npm]: http://badge.fury.io/js/echarts-x
 
@@ -54,7 +52,9 @@ let mychart = echarts.init(dom);
 mychart.setOption({...});
 ```
 
-webpack example: https://github.com/uooo/echarts-x-examples
+webpack example: https://github.com/uooo/echarts-x/tree/master/examples/webpack
+
+webpack online demo: http://uooo.github.io/echarts-x/examples/webpack
 
 ### [Download v0.2](http://echarts.baidu.com/x/build/echarts-x-0.2.0.zip)
 
