@@ -3,13 +3,15 @@ ECharts-X
 
 ECharts-X is an extension pack of [ECharts](http://echarts.baidu.com) providing globe visualization and 3D plots. Maintained by [ECharts](http://echarts.baidu.com/doc/about.html) team.
 
-It is built on top of Canvas library [ZRender](https://github.com/ecomfe/zrender) and WebGL graphic library [QTEK](https://github.com/pissang/qtek)。
+It is built on top of Canvas library [ZRender](https://github.com/uooo/zrender) and WebGL graphic library [QTEK](https://github.com/uooo/qtek)。
 
 [![NPM version][npm-badge]][npm] [![Gitter][gitter-badge]][gitter]
 
 [![Dependency Status][deps-badge]][deps]
 [![devDependency Status][dev-deps-badge]][dev-deps]
 [![peerDependency Status][peer-deps-badge]][peer-deps]
+
+Demo: http://uooo.github.io/echarts-x-examples
 
 [npm-badge]: https://img.shields.io/npm/v/echarts-x.svg?style=flat-square
 [npm]: http://badge.fury.io/js/echarts-x
@@ -25,6 +27,34 @@ It is built on top of Canvas library [ZRender](https://github.com/ecomfe/zrender
 
 [peer-deps-badge]: https://david-dm.org/uooo/echarts-x/peer-status.svg
 [peer-deps]: https://david-dm.org/uooo/echarts-x#info=peerDependencies
+
+### Installation
+
+Using npm:
+
+```sh
+$ {sudo -H} npm i -g npm
+$ npm i --save echarts-x
+```
+
+in [webpack](https://github.com/webpack/webpack):
+
+```sh
+$ npm i --save text-loader
+```
+
+```js
+import echarts from 'echarts/echarts';
+import 'echarts-x/echarts-x';
+import 'echarts/chart/map';
+import 'echarts/chart/bar';
+import 'echarts-x/chart/map3d';
+
+let mychart = echarts.init(dom);
+mychart.setOption({...});
+```
+
+webpack example: https://github.com/uooo/echarts-x-examples
 
 ### [Download v0.2](http://echarts.baidu.com/x/build/echarts-x-0.2.0.zip)
 
