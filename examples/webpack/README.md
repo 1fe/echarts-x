@@ -1,7 +1,7 @@
 # ECharts-x Examples
 Starter template for [ECharts-x](http://uooo.github.io/echarts-x) with webpack. 
 
-Demo: http://uooo.github.io/echarts-x-examples
+Demo: http://http://uooo.github.io/echarts-x/examples/webpack
 
 ## Getting Started
 
