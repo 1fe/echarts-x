@@ -11,7 +11,7 @@ It is built on top of Canvas library [ZRender](https://github.com/uooo/zrender) 
 [![devDependency Status][dev-deps-badge]][dev-deps]
 [![peerDependency Status][peer-deps-badge]][peer-deps]
 
-[npm-badge]: https://img.shields.io/npm/v/echarts-x.svg?style=flat-square
+[npm-badge]: http://badge.fury.io/js/echarts-x.svg
 [npm]: http://badge.fury.io/js/echarts-x
 
 [gitter-badge]: https://img.shields.io/badge/gitter-join%20chat-f81a65.svg?style=flat-square
